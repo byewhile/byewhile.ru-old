@@ -8,7 +8,7 @@
     color: rgba(128, 128, 128, 0.7);
 }
 
-.gameField {
+.find_emojiPage .gameField {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,18 +17,18 @@
     width: 1300px;
 }
 
-.gameField div {
+.find_emojiPage .gameField div {
     cursor: pointer;
     font-size: 30px;
     width: 40px;
 }
 
-.gameField div:hover {
+.find_emojiPage .gameField div:hover {
     transform: scale(1.05);
 }
 
 @media screen and (max-width: 480px) {
-    .gameField {
+    .find_emojiPage .gameField {
         justify-content: space-between;
         width: 350px;
     }
