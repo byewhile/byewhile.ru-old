@@ -8,6 +8,10 @@ const Home = () => {
             title: "😂 Найди emoji 😭",
             url: "/find-emoji",
         },
+        {
+            title: "👀 Сборка Доры 👄",
+            url: "/dora-assembly",
+        },
     ];
 
     return (
