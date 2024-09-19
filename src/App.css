@@ -10,3 +10,9 @@ a {
 main {
     margin-top: 25px;
 }
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 10px 20px;
+    }
+}

@@ -29,6 +29,7 @@
 
 @media screen and (max-width: 480px) {
     .gameField {
+        justify-content: space-between;
         width: 350px;
     }
 }
