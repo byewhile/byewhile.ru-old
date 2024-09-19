@@ -14,11 +14,13 @@
     justify-content: center;
     align-items: center;
     margin: 35px auto;
+    width: 1300px;
 }
 
 .gameField div {
     cursor: pointer;
     font-size: 30px;
+    width: 40px;
 }
 
 .gameField div:hover {
@@ -27,6 +29,6 @@
 
 @media screen and (max-width: 480px) {
     .gameField {
-        gap: 5px;
+        width: 350px;
     }
 }
